@@ -28,10 +28,10 @@ fetch("/data.json").then(res => {
 spans.forEach(span => {
         span.onmouseover = () => {
             span.previousElementSibling.classList.add("amount")
-            span.previousElementSibling.style.display = 'block'
+            span.previousElementSibling.style.opacity = '1'
         }
         span.onmouseout = () => { 
             span.previousElementSibling.classList.remove("amount")
-            span.previousElementSibling.style.display = 'none'
+            span.previousElementSibling.style.opacity = '0'
         }
     })

@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-    width: 500px;
+    width: 550px;
     background-color: transparent !important;
     border: none !important;
     .header, .body {
@@ -51,7 +51,7 @@ body {
     .body {
         background-color: var(--Very-pale-orange);
         ul {
-            column-gap: 30px;
+            column-gap: 0px;
             border-bottom: 1px solid #eee;
             padding-bottom: 30px !important;
             li {
@@ -62,7 +62,8 @@ body {
                         color: var(--Very-pale-orange);
                         border-radius: 6px;
                         font-weight: bold;
-                        display: none;
+                        opacity: 0;
+                        transition: .3s;
                     }
                     &.day {
                         color: var(--Medium-brown);
