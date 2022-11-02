@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <!-- link main css file -->
+  <link rel="stylesheet" href="sass/main.css">
+  <!-- bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body class="">
+
+  <div class="page d-flex justify-content-center align-items-center flex-column">
+    <div class="card d-flex justify-content-center align-items-center flex-column gap-5 border-light">
+      <div class="header  d-flex justify-content-between align-items-center px-5 py-4">
+        <div class="title">
+          <p class="m-0">My balance</p>
+          <p class="m-0 fw-bold balance">$921.48</p>
+        </div>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="">
+        </div>
+      </div>
+      <div class="body  d-flex justify-content-center align-items-center flex-column p-5">
+        <h2>Spending - Last 7 days</h2>
+        <ul class="list-unstyled d-flex justify-content-center align-items-end mt-5">
+          <li><p class="price p-2"></p><span class="sp-1"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-2"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-3"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-4"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-5"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-6"></span><p class="day"></p></li>
+          <li><p class="price p-2"></p><span class="sp-7"></span><p class="day"></p></li>
+        </ul>
+        <div class="body-footer d-flex justify-content-between align-items-center py-2">
+          <div class="left">
+            <p class="m-0">Total this month</p>
+            <h2 class="m-0 fw-bold">$478.33</h2>
+          </div>
+          <div class="right d-flex justify-content-end align-items-end flex-column ">
+              <p class="m-0">+2.4%</p>
+              <p class="m-0">from last month</p>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/ali-allaw">Ali.B.Allaw</a>.
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- link main js file -->
+  <script src="index.js"></script>
+</body>
+</html>

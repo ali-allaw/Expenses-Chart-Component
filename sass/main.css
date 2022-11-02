@@ -1,0 +1,114 @@
+:root {
+  --Soft-red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  --Dark-brown: hsl(25, 47%, 15%);
+  --Medium-brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very-pale-orange: hsl(33, 100%, 98%);
+  --Font-size: 18px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+body p {
+  font-size: 18px;
+}
+
+.page {
+  background-color: var(--Cream);
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 500px;
+  background-color: transparent !important;
+  border: none !important;
+}
+.card .header, .card .body {
+  border-radius: 25px;
+  width: 100%;
+}
+.card .header {
+  background-color: var(--Soft-red);
+}
+.card .header .title p {
+  color: var(--Very-pale-orange);
+}
+.card .header .title p:nth-child(2) {
+  font-size: 30px;
+}
+.card .body {
+  background-color: var(--Very-pale-orange);
+}
+.card .body ul {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px !important;
+}
+.card .body ul li {
+  text-align: center;
+}
+.card .body ul li p.price {
+  background-color: var(--Dark-brown);
+  color: var(--Very-pale-orange);
+  border-radius: 6px;
+  font-weight: bold;
+  display: none;
+}
+.card .body ul li p.day {
+  color: var(--Medium-brown);
+}
+.card .body ul li span {
+  display: inline-block;
+  background-color: var(--Soft-red);
+  width: 36px;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card .body ul li span:hover {
+  opacity: 0.7;
+}
+.card .body ul li span.sp-1 {
+  height: 40px;
+}
+.card .body ul li span.sp-2 {
+  height: 81px !important;
+}
+.card .body ul li span.sp-3 {
+  height: 116px;
+  background-color: var(--Cyan) !important;
+}
+.card .body ul li span.sp-4 {
+  height: 72px !important;
+}
+.card .body ul li span.sp-5 {
+  height: 54px;
+}
+.card .body ul li span.sp-6 {
+  height: 100px;
+}
+.card .body ul li span.sp-7 {
+  height: 59px;
+}
+.card .body .body-footer {
+  width: 100%;
+}
+.card .body .body-footer .left p {
+  color: #918378;
+}
+.card .body .body-footer .left h2 {
+  color: var(--Dark-brown);
+  font-size: 50px;
+}
+.card .body .body-footer .right {
+  transform: translateY(10px);
+}
+.card .body .body-footer .right p:nth-child(1) {
+  color: var(--Dark-brown);
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
